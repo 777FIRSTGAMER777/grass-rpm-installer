@@ -29,7 +29,8 @@ You must install the RPM Build Tools (`rpm-build`) and `binutils` first to make 
 To start the installation, you can either `git clone` this repository in a folder or download the script directly. Make sure to make the script executable.
 
 ```bash
-git clone [https://github.com/777FIRSTGAMER777/grass-rpm-installer.git](https://github.com/777FIRSTGAMER777/grass-rpm-installer.git)
+git clone https://github.com/777FIRSTGAMER777/grass-rpm-installer.git
+
 cd grass-rpm-installer
 
 chmod +x build_grass.sh
