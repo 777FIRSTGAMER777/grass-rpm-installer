@@ -48,6 +48,6 @@ sudo dnf install grass-6.1.2-1.fc43.x86_64.rpm
 # Or whatever version you have.
 ```
 
-I hope this will help for us all. If you spot any issues, don't hesitate to report them. :)
+I hope this will help those who need it. If you spot any issues, don't hesitate to report them. :)
 
 Notice: This script was made with the assistance of AI (Gemini 3 Pro by Google) and was manually tested.
