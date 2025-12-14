@@ -21,7 +21,7 @@ rpm-ostree install grass-*grass version number*.rpm
 
 ## ➡️**Installation Guide**⬅️
 
-You must install the RPM Build Tools (`rpm-build`) and `binutils` first to make the script work. Installing `wget` will allow you to download the original Debian package _straight_ from the command line without any use of a browser.
+You must install the RPM Build Tools (`rpm-build`) and `binutils` first to make the script work. Installing `wget` will allow you to download the original Debian package _straight_ from the command line without any use of a browser. Installing `git` is also required if you want to perform a `git clone`.
 
    ```bash 
    sudo dnf install rpm-build binutils wget
@@ -33,12 +33,12 @@ git clone https://github.com/777FIRSTGAMER777/grass-rpm-installer.git
 
 cd grass-rpm-installer
 
-chmod +x build_grass.sh
+chmod +x touch_grass.sh
 ```
 Now, you can execute the script.
 
 ```bash
-./build_grass.sh
+./touch_grass.sh
 ```
 I hope this will help for us all. If you spot any issues, don't hesitate to report them. :)
 
