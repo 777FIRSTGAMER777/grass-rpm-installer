@@ -40,6 +40,14 @@ Now, you can execute the script.
 ```bash
 ./touch_grass.sh
 ```
+Once the package is created, double tap on it (if you have Discover or a similar pacakage-managing app) or open the terminal in the package's directory and use `dnf` for further installation: 
+
+
+```bash
+sudo dnf install grass-6.1.2-1.fc43.x86_64.rpm
+# Or whatever version you have.
+```
+
 I hope this will help for us all. If you spot any issues, don't hesitate to report them. :)
 
 Notice: This script was made with the assistance of AI (Gemini 3 Pro by Google) and was manually tested.
