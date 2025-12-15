@@ -18,7 +18,7 @@ echo "Working in: $WORK_DIR"
 
 # 1. Prerequisite check:
 if ! command -v rpmbuild &> /dev/null; then
-    echo "❌O-oh... Looks like 'rpm-build' is not installed.❌"
+    echo "❌Uh-oh... Looks like 'rpm-build' is not installed.❌"
     echo "But don't worry: I got your back. 😊"
     echo "Run ' sudo dnf install rpm-build binutils ' to continue. ⌛"
     exit 1
