@@ -50,7 +50,7 @@ fi
 # 4. Create the SPEC file dynamically
 echo "📝 Generating RPM Specification file (.spec)...📝"
 cat <<EOF > grass.spec
-Name:           grass
+Name:           grass-desktop
 Version:        ${VERSION}
 Release:        1%{?dist}
 Summary:        Grass Desktop Node
@@ -110,7 +110,7 @@ if [ -f "$RPM_FILE" ]; then
 if mv "$RPM_FILE" "$ORIGINAL_DIR/"; then
     FINAL_NAME=$(basename "$RPM_FILE")
     echo "🎉 Your package is ready: $(basename "$FINAL_NAME")"
-    echo "   You can install it with this command: sudo dnf localinstall $(basename "$FINAL_NAME")"
+    echo "   You can install it with this command: sudo dnf install $(basename "$FINAL_NAME")"
     echo "   Now you are ready to 🌿:touchgrass:🌿. Enjoy! ✌🏻"
     rm -rf "$WORK_DIR"
 else
